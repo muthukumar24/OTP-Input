@@ -1,20 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900');
 @import "tailwindcss";
-@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
 
-* {
+body {
     font-family: Outfit;
-}
-
-.App {
-    text-align: center;
-    font-family: sans-serif;
-}
-
-.otp-input {
-    height: 40px;
-    width: 40px;
-    font-size: 30px;
-    text-align: center;
-    padding: 10px;
-    margin: 5px;
 }

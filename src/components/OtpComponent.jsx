@@ -35,11 +35,11 @@ const OtpComponent = () => {
 
   return (
     <div>
-      <h2>Validate OTP</h2>
+      <h2 className="font-semibold text-3xl mt-5 mb-5">Validate OTP</h2>
       {inputArr.map((input, index) => (
         <input
           type="text"
-          className="otp-input"
+          className="border rounded w-15 h-15 text-center m-2"
           key={index}
           value={inputArr[index]}
           ref={(input) => {refArr.current[index] = input;}}

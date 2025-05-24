@@ -3,7 +3,7 @@ import OtpComponent from './components/OtpComponent'
 
 const App = () => {
   return (
-    <div className='App'>
+    <div className='text-center'>
       <OtpComponent />
     </div>
   )
